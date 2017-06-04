@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import Nav from 'Nav';
+import Weather from 'Weather';
+import About from 'About';
+import Examples from 'Examples';
 
 // class Main extends React.Component{
 //   render(){
@@ -19,7 +22,6 @@ const Main = (props) => {
         <Nav/>
           <div className="row">
             <div className="columns medium-6 large-4 small-centered">
-              {props.children}
             </div>
           </div>
       </div>
